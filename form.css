@@ -1,0 +1,37 @@
+#main {
+    
+    background-image: url("https://i.pinimg.com/originals/ea/06/01/ea0601709a575dc68afdb1562dfffb9c.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+#survey-form {
+    background-color: white;
+    width: 50%;
+    padding-top: 40px;
+    margin: 50px auto;
+    padding-bottom: 50px;
+    border-radius: 5%;
+    display:grid;
+    
+    justify-items: center;
+    align-items: center;
+    
+    row-gap: 5px;      
+}
+#radio{
+
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+} 
+#checkbox{
+    justify-items:center;
+    display: flex;
+    flex-direction: column;    
+}
+
+#submit{
+    background-color:rgb(127, 255, 148);
+}  
+ 

@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <link href="form.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div id="main">
+        <h1 align='center' id="title">SURVEY FORM</h1>
+        <form id="survey-form">
+            <p  id="description" align='center'>Fill the form to complete the survey!</p>
+              
+            <label id='name-label' for="name"><b> NAME : </b></label><input id="name" type='text' placeholder=' Enter your name' required> <br> 
+            <label id='email-label'><b> E-MAIL : </b></label><input id='email' type='email' placeholder=' Enter your email' required>  <br> 
+             <label id='number-label'><b>AGE : </b></label><input id='number' type='number' placeholder=' Age' min="18" max="60" required> <br> 
+
+            <label for='dropdown'><b>COUNTRY :</b></label>
+            <select id='dropdown'>
+            <option value='odisha'>ODISHA</option>
+            <option value='andhra pradesh'>ANDHRA PRADESH</option>
+            <option value='maharastra'>MAHARASTRA</option>
+            <option value='delhi'>DELHI</option>
+            <option value='west bengal'>WEST BENGAL</option>
+             <option value='karnatak'>KARNATAK</option>
+            </select> <br> 
+
+            <label target><b>GENDER : </b></label>
+            <div id='radio'>
+                <label for='1'><input type='radio' name='gender' id ='1' value='male'>Male</label>
+                <label for='2'><input type='radio' name='gender'  id ='2' value='female'>Female</label>
+                <label for='3'><input type='radio' name='gender'  id ='3' value='others'>Others</label>
+              </div> <br> 
+            
+              <label target><b>IDENTIFICATION :</b></label>
+              <div id='check'>
+                <label for='a'><input type='checkbox' name='lt' id ='a' value='adhar'>Adhar Card</label>
+                 <label for='b'><input type='checkbox' name='lt' id ='b' value='vote id'>Voter ID Card</label>
+                 <label for='c'><input type='checkbox' name='lt' id ='c' value='pan'>PAN Card</label>
+                <label for='d'><input type='checkbox' name='lt' id ='d' value='driving license'>Driving License</label>
+                <label for='c'><input type='checkbox' name='lt' id ='c' value='others'>Others</label>
+              </div> <br> 
+
+              <label target><b>SHARE YOUR EXPERIENCE :</b></label>
+            <textarea placeholder='Type here'></textarea><br>
+
+            <input type='submit' id='submit'></div>
+        </form>
+    </body>
+</html>
